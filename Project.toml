@@ -1,0 +1,13 @@
+name = "SpinSim"
+uuid = "81673995-7d9b-4222-b252-dfb1cd79f2a6"
+authors = ["Adrian Braemer <11058200+abraemer@users.noreply.github.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
